@@ -4,7 +4,7 @@ import React from 'react';
 class Smurf extends React.Component {
     render() {
         const { smurf } = this.props;
-
+        console.log('what')
         return(
             <div data-testid="smurf" className="card">
                 <h2>Name: {smurf.name}</h2>
